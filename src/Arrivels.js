@@ -30,8 +30,9 @@ function Arrivels() {
   return (
     <div className='arrive'>
       
-        <h2 className='head'><hr className='hr'/> New Arrival  <hr/> </h2>
-      
+       
+       <marquee scrollamount="10" direction=""><h1 className='head'>New Arrival</h1> </marquee>
+
 
       <div className='contain ' >
         <div className='row'>

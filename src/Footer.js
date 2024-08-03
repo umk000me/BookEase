@@ -21,7 +21,7 @@ function Footer() {
             </div>
            <div className='col-3'>
             <h3>Contact us:</h3>
-            <p className='phone'><i className="fa-solid fa-phone"></i> Phone no:9876543210</p>
+            <p className='phone'><i className="fa-solid fa-phone"></i> Phone no:9975260955</p>
             <p><i className="fa-solid fa-envelope"></i>Email:<a className='phone' href='mailto:umkhairnar207@gmail.com'>umkhairnar207@gmail.com</a></p>
           </div>
           <div className='col-3'>
