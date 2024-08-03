@@ -5,7 +5,7 @@ import img3 from './YD.jpg'
 import img4 from './RT.jpg'
 function Team() {
   return (
-    <div>
+    <div className='team1'>
       <div className='container_js'>
         <div className='row'>
           

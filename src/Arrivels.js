@@ -6,7 +6,7 @@ import arv4 from './book_12.png'
 import arv5 from './book_13.png'
 import arv6 from './book_14.png'
 import arv7 from './book_15.png'
-import arv8 from './book_21.jpg'
+
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -22,20 +22,20 @@ import  arive9 from './arrival_9.jpg'
 import  arive10 from './arrival_10.jpg'
 
 
-import stand from './stand.jpg'
+import stand from './stand.png'
 import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Link } from 'react-router-dom'
 function Arrivels() {
   return (
-    <div>
+    <div className='arrive'>
       
-        <h2 className='head'><hr className='hr'/> Arrival Section <hr/> </h2>
+        <h2 className='head'><hr className='hr'/> New Arrival  <hr/> </h2>
       
 
       <div className='contain ' >
         <div className='row'>
-          <div className='content col-3'>
+          <div className='content col-4'>
             <h1>Upto 35% off </h1>
             <p>         Discover the excitement of new arrivals with our exclusive offer of up to 55% off on all the latest books. <br />
               Dive into a world of captivating stories, insightful non-fiction, and thrilling adventures at unbeatable prices.<br />
@@ -45,16 +45,22 @@ function Arrivels() {
           </div>
           <div className='  col-6'>
             <div className='book_slider'>
-              <Swiper className='swiper'
-                spaceBetween={30}
-                slidesPerView={3}
 
-                pagination={{ loop: true }}
-                autoplay={{ delay: 3 }}
-              >
-
-
-                <SwiperSlide >
+            <Swiper
+  spaceBetween={30}
+  slidesPerView={2}
+  pagination={{ clickable: true }}
+  autoplay={{ delay: 3000 }}
+  breakpoints={{
+    768: {
+      slidesPerView: 2,
+    },
+    992: {
+      slidesPerView: 3,
+    },
+  }}
+>
+              <SwiperSlide >
                   <img src={arv1} alt="Slide 1" height={250} />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -75,9 +81,7 @@ function Arrivels() {
                 <SwiperSlide>
                   <img src={arv7} alt="Slide 3" height={250} />
                 </SwiperSlide>
-                <SwiperSlide>
-                  <img src={arv8} alt="Slide 3" height={230} />
-                </SwiperSlide>
+                
 
               </Swiper>
             </div>

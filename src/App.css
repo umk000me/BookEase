@@ -5,6 +5,8 @@
   position: sticky;
   top: 0;
   z-index: 1;
+ 
+
 
 }
 
@@ -15,7 +17,7 @@
 
   background: linear-gradient(to bottom, #05b3e8 0%, #0dedea 100%);
   font-size: large;
-
+  
   /* border-radius: 20px;  */
   
 }
@@ -25,6 +27,8 @@
   transform: scale(.9);
   background-color: rgb(255, 174, 0);
   border-radius: 120px;
+  backdrop-filter: blur(4px);
+  
 
 }
 .nav-item{
@@ -137,7 +141,9 @@
   
  }
 .content{
-  margin-left: 20px;
+
+ 
+
   background-image: url('solid.jpg' );
   background-repeat: no-repeat;
   background-size: cover;
@@ -270,9 +276,7 @@ background-color: #ffde04;
   color: #05b3e8;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.head:hover{
-  color: aquamarine;
-}
+
 .pr{
   text-align: center;
   color: black;
@@ -312,8 +316,8 @@ background-color: #ffde04;
  
 }
 .container-js{
-  background: linear-gradient(40deg,#e5cda5 30%,#39bc9b 30.1%);
- 
+  background: linear-gradient(55deg,#e5cda5 32%,#39bc9b 30.1%);
+ display: flex;
 }
 .column{
   background: linear-gradient(120deg,#fddb92 30%, #d1fdff 30.1%);
@@ -339,6 +343,7 @@ background-color: #ffde04;
 }
 .containers{
 overflow-x: hidden;
+
 
 }
 .receipt{
@@ -375,6 +380,10 @@ overflow-x: hidden;
   font-size: larger;
   text-shadow: blanchedalmond;
 }
+
+
+
+
 
 
 @media (max-width: 992px) {
@@ -473,13 +482,15 @@ overflow-x: hidden;
 }
 
 .container-fluid{
- background-color:#05b3e8 ;
+ background-color:#48f3fc ;
  margin-bottom: -20px;
+ 
 }
 @media (max-width: 767.98px) {
   .col-6.col-md-3.text-end {
     justify-content: center; 
     flex-wrap: wrap; 
+    
   }
 
   .col-6.col-md-3.text-end i {
@@ -492,3 +503,335 @@ overflow-x: hidden;
     justify-content: center; 
   }
 }
+@media (max-width: 992px) {
+  .col-6,
+  .col-3 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .stand img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .button {
+    font-size: 14px;
+  }
+
+  .button3 {
+    font-size: 12px;
+  }
+
+  .icons i {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) {
+  .col-3 {
+    flex: 1;
+    max-width: 25%;
+    
+  }
+
+  .col-6 {
+    flex: 1;
+    max-width: 50%;
+  }
+
+  .book_slider {
+    width: 100%;
+  }
+
+  .book_slider .swiper-slide {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 992px) {
+  .book_slider .swiper-slide {
+    width: 25%;
+  }
+}
+
+/* Adjust the card width for different screen sizes */
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+   
+  }
+
+  .book_slider img {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .book_slider img {
+    height: 250px;
+  }
+}
+.arrive{
+  background: linear-gradient(120deg,#ffffff 30%,#75edf4 30.1%);
+  background-image:url(team2.png) ;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* General styling */
+.container-js {
+  padding: 0 15px;
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.book-img {
+  border-radius: 8px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.button3 {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.button3:hover {
+  background-color: #0056b3;
+}
+
+.icons i {
+  margin-right: 10px;
+}
+
+/* Responsive layout */
+@media (max-width: 1199px) {
+  .col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 991px) {
+  .col-3 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 575px) {
+  .col-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+/* Footer.css */
+
+
+
+@media (max-width: 1199px) {
+  .container2 .row > div {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container2 .row {
+    text-align: center;
+  }
+
+  .container2 .row > div {
+    margin-bottom: 20px;
+  }
+
+  .count {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container2 {
+    padding: 15px;
+  }
+
+  .container2 .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container2 .row > div {
+    width: 100%;
+  }
+
+  .copy {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .count img {
+    width: 100%;
+    display: flex;
+  }
+}
+/* About.css */
+
+.container4 {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.column {
+  margin-bottom: 20px;
+}
+
+.aboutusheadings {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1199px) {
+  .container4 {
+    padding: 15px;
+  }
+
+  .column {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container4 {
+    text-align: center;
+  }
+
+  .column {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container4 {
+    padding: 10px;
+  }
+
+  .column {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .aboutusheadings {
+    font-size: 1.2em;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  ul li {
+    margin-bottom: 8px;
+  }
+}
+/* Team.css */
+
+.container_js {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card2 {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card2:hover {
+  transform: scale(1.05);
+}
+
+.card2-img-top {
+  border-radius: 10px;
+}
+
+.card2-body {
+  padding: 15px;
+}
+
+.card2-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card2-text {
+  font-size: 0.9em;
+  color: #555;
+}
+
+@media (max-width: 1199px) {
+  .row {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .card2 {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 767px) {
+  .card2 {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+.container_js{
+  background-image: url(team.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

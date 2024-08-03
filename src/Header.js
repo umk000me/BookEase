@@ -27,7 +27,7 @@ function Header() {
               <button className="btn" type="submit"><i className="fa-solid fa-magnifying-glass"></i></button>
             </form>
           </div>
-          <div className='col-6 col-md-3 text-end'>
+          <div className='col-3 col-md-3 text-end'>
             <i className="fa-solid fa-heart me-3"></i>
             <i className="fa-solid fa-cart-shopping me-3"></i>
             <Button className='btnn' onClick={handleShow}>

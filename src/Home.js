@@ -36,7 +36,7 @@ function Home() {
       <div className='row'>
         {books.map((book, index) => (
           <div className='mt-5 col-3' key={index}>
-            <Card style={{ width: '95%' }}>
+            <Card style={{ width: '16rem' }}>
               <div className='icons'></div>
               <div className='card'>
                 <Card.Img className='cd p-3 bg-body-tertiary book-img' variant="top" src={book.src} width={50} height={250} />
