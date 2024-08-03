@@ -13,7 +13,9 @@
 .navbar {
 
   display: flex;
+ 
   text-align: center;
+ 
 
   background: linear-gradient(to bottom, #05b3e8 0%, #0dedea 100%);
   font-size: large;
@@ -39,6 +41,7 @@
 .container_fluid {
   background-color: #0dedea;
   background-size: cover;
+   
 
 }
 
@@ -837,7 +840,7 @@ ul li {
 }
 .head{
 
-  color: #555;
+  color: #000000;
 }
 .head:hover{
   text-transform: uppercase;
@@ -849,3 +852,9 @@ ul li {
   100% { transform: translateX(-100%); }
 }
 
+.slide{
+  display: flex;
+  size-adjust: 200px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}

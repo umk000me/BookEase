@@ -6,6 +6,9 @@ import arv4 from './book_12.png'
 import arv5 from './book_13.png'
 import arv6 from './book_14.png'
 import arv7 from './book_15.png'
+import arv8 from './new2.png'
+import arv9 from './new3.png'
+
 
 
 import Button from 'react-bootstrap/Button';
@@ -30,7 +33,8 @@ function Arrivels() {
   return (
     <div className='arrive'>
       
-       
+      
+
        <marquee scrollamount="10" direction=""><h1 className='head'>New Arrival</h1> </marquee>
 
 
@@ -48,7 +52,8 @@ function Arrivels() {
             <div className='book_slider'>
 
             <Swiper
-  spaceBetween={30}
+            className='shadow-lg'
+  spaceBetween={0}
   slidesPerView={2}
   pagination={{ clickable: true }}
   autoplay={{ delay: 3000 }}
@@ -61,7 +66,7 @@ function Arrivels() {
     },
   }}
 >
-              <SwiperSlide >
+              <SwiperSlide  >
                   <img src={arv1} alt="Slide 1" height={250} />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -82,6 +87,16 @@ function Arrivels() {
                 <SwiperSlide>
                   <img src={arv7} alt="Slide 3" height={250} />
                 </SwiperSlide>
+                <SwiperSlide className='slide'>
+                  <img src={arv8} alt="Slide 3" height={300} />
+                </SwiperSlide>
+                
+                <SwiperSlide className='slide'>
+                  <img src={arv9} alt="Slide 3" height={270} />
+                </SwiperSlide>
+                
+                
+                
                 
 
               </Swiper>
