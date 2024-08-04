@@ -30,7 +30,7 @@ function Header() {
           <div className='col-3 col-md-3 text-end'>
             <i className="fa-solid fa-heart me-3"></i>
             <i className="fa-solid fa-cart-shopping me-3"></i>
-            <Button className='btnn' onClick={handleShow}>
+            <Button  onClick={handleShow}    type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" className="navbar-toggler">
               Sign in <i className="fa-solid fa-user"></i>
             </Button>
           </div>
@@ -45,7 +45,7 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <Link to='/' className='nav-link'>Home</Link>
+                <Link to='/' className='nav-link' >Home</Link>
               </li>
               <li className="nav-item">
                 <Link to='/arrivel' className='nav-link'>Arrival</Link>
@@ -60,7 +60,7 @@ function Header() {
                 <Link to='/team' className='nav-link'>Team</Link>
               </li>
               <li className="nav-item">
-                <Link to='/info' className='nav-link'>Customer Information</Link>
+                <Link to='/info' className='nav-link'>Buyer Info</Link>
               </li>
             </ul>
           </div>

@@ -17,21 +17,59 @@
   text-align: center;
  
 
-  background: linear-gradient(to bottom, #05b3e8 0%, #0dedea 100%);
+  background: linear-gradient(to bottom, #05b3e8 0%, #15ddd9 100%);
+  background-color: #00fff2;
   font-size: large;
   
   /* border-radius: 20px;  */
   
 }
+.nav-link{
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color:#00e5ff ;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.nav-link:hover {
+  background-color: #00e5ff;
+  
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.nav-link:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+   background-color: rgba(0, 101, 252, 0.545); 
+  border-radius: 70%; 
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100px;
+  height: 100px;
+}
+
 
 .navbar a:hover {
-  color: rgb(0, 255, 225);
-  transform: scale(.9);
-  background-color: rgb(255, 174, 0);
-  border-radius: 120px;
-  backdrop-filter: blur(4px);
+  color: rgb(0, 0, 0);
   
-
 }
 .nav-item{
   font-family: serif;
@@ -209,6 +247,14 @@
     background-repeat: no-repeat;
     background-size: cover;
  
+  }
+  .navbar-toggler{
+    display: flex;
+    margin-top: -12px;
+  }
+  .fa-user{
+    display: flex;
+    margin-top: 2.8px;
   }
   .log{
     border-radius: 25px;
@@ -857,4 +903,51 @@ ul li {
   size-adjust: 200px;
   margin-top: 10px;
   margin-bottom: -20px;
+}
+
+.navbar-toggler {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #00e5ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar-toggler:hover {
+  background-color: #41a9a6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.navbar-toggler:hover::after {
+  width: 200px;
+  height: 200px;
+}
+
+.navbar-toggler i {
+  margin-left: 8px;
 }
