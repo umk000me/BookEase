@@ -28,8 +28,8 @@ function Footer() {
             <h3>Social Media</h3>
             <p><i className="fa-brands fa-facebook text-primary"></i> Facebook</p>
             <p><i className="fa-brands fa-instagram text-warning"></i> <a className='txt' href='https://www.instagram.com/bookease2024/'>Instagram</a></p>
-            <p><i className="fa-brands fa-twitter text-info"></i> <a className='txt' href='https://www.linkedin.com/in/umesh-khairnar-50531b320/'>Twitter</a></p>
-            <p><i className="fa-brands fa-linkedin text-bg-primary"></i> LinkedIn</p>
+            <p><i className="fa-brands fa-twitter text-info"></i>Twitter</p>
+            <p><i className="fa-brands fa-linkedin text-bg-primary"></i>  <a className='txt' href='https://www.linkedin.com/in/umesh-khairnar-50531b320/'></a>LinkedIn</p>
           </div>
           <div className='count col-6 '>
             <h3 className='hr3'>Visitors count</h3>
