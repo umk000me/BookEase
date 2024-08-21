@@ -1,35 +1,25 @@
-
-
 .navi {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
- 
-
-
-}
+ }
 
 .navbar {
-
-  display: flex;
- 
-  text-align: center;
- 
-
-  background: linear-gradient(to bottom, #05b3e8 0%, #15ddd9 100%);
-  background-color: #00fff2;
-  font-size: large;
-  
-  /* border-radius: 20px;  */
-  
+display: flex;
+text-align: center;
+background: linear-gradient(to bottom, #05b3e8 0%, #15ddd9 100%);
+background-color: #05e8fd;
+font-size: large;
+border-radius: 20px; 
+   
 }
 .nav-link{
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
-  color: #ffffff;
-  background-color:#00e5ff ;
+  /* color: #ffffff;
+  background-color:#00e5ff ; */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -55,7 +45,7 @@
   left: 50%;
   width: 0;
   height: 0;
-   background-color: rgba(0, 101, 252, 0.545); 
+   /* background-color: rgba(0, 101, 252, 0.545);  */
   border-radius: 70%; 
   transform: translate(-50%, -50%);
   transition: width 0.3s ease, height 0.3s ease;

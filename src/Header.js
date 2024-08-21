@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Demoform from './Demoform';
 import './App.css';  
+ import Tilt from 'react-parallax-tilt';
 
 function Header() {
   const [show, setShow] = useState(false);
@@ -44,24 +45,24 @@ function Header() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto">
-              <li className="nav-item">
+            <Tilt  gyroscope= {true} > <li className="nav-item">
                 <Link to='/' className='nav-link' >Home</Link>
-              </li>
-              <li className="nav-item">
+              </li></Tilt>
+              <Tilt  gyroscope= {true} >  <li className="nav-item">
                 <Link to='/arrivel' className='nav-link'>Arrival</Link>
-              </li>
-              <li className="nav-item">
+              </li></Tilt>
+              <Tilt  gyroscope= {true} >  <li className="nav-item">
                 <Link to='/feature' className='nav-link'>Featured</Link>
-              </li>
-              <li className="nav-item">
+              </li></Tilt>
+              <Tilt  gyroscope= {true} >  <li className="nav-item">
                 <Link to='/aboutus' className='nav-link'>About</Link>
-              </li>
-              <li className="nav-item">
+              </li></Tilt>
+              <Tilt  gyroscope= {true} >  <li className="nav-item">
                 <Link to='/team' className='nav-link'>Team</Link>
-              </li>
-              <li className="nav-item">
+              </li></Tilt>
+              <Tilt  gyroscope= {true} >  <li className="nav-item">
                 <Link to='/info' className='nav-link'>Buyer Info</Link>
-              </li>
+              </li></Tilt>
             </ul>
           </div>
         </div>

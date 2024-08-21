@@ -13,6 +13,7 @@ import book9 from './book_9.jpg';
 import book10 from './book_11.jpg';
 import book11 from './book_16.jpg';
 import book12 from './book_17.jpg';
+import Tilt from 'react-parallax-tilt';
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -36,8 +37,10 @@ function Home() {
       <div className='row'>
         {books.map((book, index) => (
           <div className='mt-5 col-3' key={index}>
+             <Tilt  gyroscope= {true} >
             <Card style={{ width: '16rem' }}>
               <div className='icons'></div>
+             
               <div className='card'>
                 <Card.Img className='cd p-3 bg-body-tertiary book-img' variant="top" src={book.src} width={50} height={250} />
                 <Card.Body>
@@ -66,6 +69,7 @@ function Home() {
                 </Card.Body>
               </div>
             </Card>
+            </Tilt>
           </div>
         ))}
       </div>

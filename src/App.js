@@ -14,6 +14,7 @@ import Info from './Info';
 import Featured from './Featured';
 import Team from './Team';
 import Cartform from './Cartform';
+import Tilt from 'react-parallax-tilt';
 function App() {
   return (
     <div className='containers'>
@@ -23,7 +24,8 @@ function App() {
       <>
 
         <BrowserRouter>
-          <Header />
+        
+        <Header /> 
           <div className='booke2 d-flex justify-content-center py-2'>
             <img  src={bookease2} alt="" width={400} height={60}></img>
 
