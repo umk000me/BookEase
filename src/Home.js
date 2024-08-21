@@ -37,7 +37,7 @@ function Home() {
       <div className='row'>
         {books.map((book, index) => (
           <div className='mt-5 col-3' key={index}>
-             <Tilt  gyroscope= {true} >
+           
             <Card style={{ width: '16rem' }}>
               <div className='icons'></div>
              
@@ -69,7 +69,7 @@ function Home() {
                 </Card.Body>
               </div>
             </Card>
-            </Tilt>
+           
           </div>
         ))}
       </div>
