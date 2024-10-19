@@ -18,7 +18,7 @@ function Team() {
   </div>
 </div>
 
-<div class="card2 mt-5 col-2" >
+{/* <div class="card2 mt-5 col-2" >
   <img className='pic rounded-3 rounded' style={{borderRadius:"20px"}} src={img3} class="card2-img-top" alt="..."width={350} height={250}/>
   <div class="card2-body">
     <p class="card2-title">Yash D. Shirsath</p>
@@ -33,7 +33,7 @@ function Team() {
     <p class="card2-text">Email-ravirajt07@gamil.com</p>
    
   </div>
-</div>
+</div> */}
 
 </div>
           </div>
