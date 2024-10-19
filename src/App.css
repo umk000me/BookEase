@@ -224,6 +224,8 @@ border-radius: 20px;
   }
   .login {
     background-image: url("abstract.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 20px;
     max-width: 600px;
     margin: 50px auto;
