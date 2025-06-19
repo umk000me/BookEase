@@ -12,7 +12,7 @@ import About from './About';
 import bookease2 from './bookease2.png'
 import Info from './Info';
 import Featured from './Featured';
-import Team from './Team';
+
 import Cartform from './Cartform';
 import Tilt from 'react-parallax-tilt';
 function App() {
@@ -37,7 +37,7 @@ function App() {
             <Route path='/aboutus' element={<About />} />
             <Route path='/info' element={<Info />} />
             <Route path='/feature' element={<Featured />} />
-            <Route path='/team' element={<Team />} />
+           
 
             <Route path='/cart' element={<Cartform />} />
 
