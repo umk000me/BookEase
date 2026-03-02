@@ -7,8 +7,8 @@ function Footer() {
         <div className='row'>
             <div className='col-3'>
               <h3>Company</h3>
-                <p>Career</p>
-                <p>About us</p>
+                <p>Career </p>
+                <p>About us </p>
                 <p>Contact us</p>
                 <p>Team</p>
             </div>
@@ -38,7 +38,7 @@ function Footer() {
             </a>  
           </div>
           <div className='copy col-12'>
-            <p>Copyright <i className="fa-regular fa-copyright"> 2024 Made by Techtitans</i></p>
+            <p> Copyright <i className="fa-regular fa-copyright"> 2024 Made by Techtitans </i></p>
           </div>
         </div>
     </div>
