@@ -68,8 +68,10 @@ function Home() {
                   </Button>
                 </Card.Body>
               </div>
-            </Card>
-           
+            
+  </Card>
+
+  
           </div>
         ))}
       </div>
